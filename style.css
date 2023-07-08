@@ -17,7 +17,7 @@
 
 /* Navigation menue style */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,9 +59,7 @@ nav li {
 }
 
 
-nav {
-    
-}
+nav {}
 
 .header-title {
     display: flex;
@@ -74,7 +72,8 @@ nav {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.header-title p{
+
+.header-title p {
     padding-right: 160px;
 }
 
@@ -83,10 +82,44 @@ nav {
     padding-bottom: 0px;
 }
 
-.header{
+.header-title h6 {
+    color: #474747;
+    font-size: 45px;
+    padding-bottom: 0px;
+}
+
+.header-title h2 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+.header-title p {
+    color: #757575;
+    padding-bottom: 0px;
+
+}
+
+.header {
     background: #FFF8F3;
     border: 0;
     background-image: url(assets/image/developer.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+/* main section style */
+
+.about-me{
+    background: #FFF8F3;
+    margin: 130px 230px;
+    text-align: center;
+    padding: 100px;
+    border-radius: 10px;
+}
+
+.about-me-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
